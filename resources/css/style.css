@@ -1,0 +1,61 @@
+* {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: black; 
+}
+
+body, header, main, article, footer {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+h1, h2, p, a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 300;
+}
+
+p {
+  color: gray;
+  font-size: 21px;
+}
+
+a {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+article img {
+  width: 90%; 
+  height: auto;
+}
+
+footer {
+  width: 100%;
+}
+
+.copyright {
+  margin-left: auto;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
